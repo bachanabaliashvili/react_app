@@ -1,0 +1,232 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.header-li {
+  float: right;
+}
+
+.header-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  background-color: #6cbce0;
+}
+
+.header-account {
+  display: flex;
+}
+
+.header-out {
+  margin:  0 10px 0 50px;
+}
+
+.header-out:hover {
+  background-color: #d12e2e;
+}
+
+.news {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.news-img {
+  width: 400px;
+  height: 400px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-a {
+  color: #706b6b;
+}
+
+.fb {
+  background: url("https://naec.ge/resources/images/facebook.png");
+}
+
+.yt {
+  background: url("https://naec.ge/resources/images/youtube.png");
+}
+
+.fb, .yt {
+  background-repeat: no-repeat;
+  background-size: 32px;
+  background-position: center;
+  width: 32px;
+  height: 32px;
+  margin: 0 10px
+}
+
+.students {
+  background-color: #f5e4e6;
+  padding: 60px 0 60px 0;
+}
+
+.box {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.info {
+  border: 1px solid #b6cfdb;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  height: 50px;
+  background-color: #ffffff;
+}
+
+.student {
+  border: 2px solid #b6cfdb;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  height: 50px;
+  background-color: #ffffff;
+}
+
+.student:nth-child(2n) {
+  background-color: #b6cfdb;
+}
+
+.table-header, .table-body {
+  width: 250px;
+  margin-left: 40px;
+  border-right: 1px solid #84b3a4;
+  font-family: 'Dosis', sans-serif;
+}
+
+.table-header:last-child, .table-body:last-child {
+  border-right: none;
+}
+
+.students-buttons {
+  margin: 10px 0 20px 0;
+}
+
+.students-button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  color: #4c99d8;
+}
+
+.posts-container {
+  display: flex;
+  justify-content: center;
+}
+
+.posts {
+  width: 80%;
+  text-align: center;
+}
+
+.post {
+  border: 1px solid #000;
+  margin-bottom: 60px;
+  box-shadow: 10px 10px 5px grey;
+  padding: 20px;
+}
+
+.post-title {
+  margin: 0;
+}
+
+.login {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #afb8cc;
+  width: 50%;
+  margin: 8% 25%;
+}
+
+.login-title {
+  color: #004b91;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  font-size: 20px;
+  padding: 10px 0 20px 0;
+  border-bottom: 2px solid #fff;
+}
+
+.inner-login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.inner-login-title {
+  padding: 15px;
+}
+
+.inner-login-input {
+  margin: auto;
+  padding: 10px;
+  width: 50%;
+}
+
+.login-button {
+  margin: auto;
+  width: 120px;
+  height: 40px;
+  padding: 5px;
+  background: #4cae4f;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  outline: navajowhite;
+}
+
+.user-page {
+  margin: 70px;
+}
+
+.users-info {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-info {
+  /* display: flex;
+  justify-content: space-between; */
+  width: 30%;
+  margin: auto;
+  /* border: 1px solid #000; */
+  padding: 5px 20px;
+}
+
+.user-info-divider {
+  border: 1px solid;
+}
